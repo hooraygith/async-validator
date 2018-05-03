@@ -239,6 +239,9 @@ Schema.prototype = {
     if (messageIndex !== -1) {
       keys.splice(messageIndex, 1);
     }
+    if (keys.includes('required') && !keys.includes('type') && !keys.includes('pattern')) {
+      return validators.required2;
+    }
     if (keys.length === 1 && keys[0] === 'required') {
       return validators.required;
     }

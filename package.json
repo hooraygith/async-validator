@@ -1,6 +1,6 @@
 {
-  "name": "async-validator",
-  "version": "1.8.2",
+  "name": "async-validator-2",
+  "version": "1.0.1",
   "description": "validate form asynchronous",
   "keywords": [
     "validator",
@@ -11,7 +11,7 @@
   "author": "yiminghe@gmail.com",
   "repository": {
     "type": "git",
-    "url": "git@github.com:yiminghe/async-validator.git"
+    "url": "git@github.com:hooraygith/async-validator.git"
   },
   "files": [
     "lib",
